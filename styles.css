@@ -99,7 +99,20 @@ nav {
 .page-nav > h2 {
   margin: auto 0.5em;
   flex-basis: 100%;
-  font-size: 1.7em;
+  font-size: 1.45em;
+  text-align: center;
+  color: #522210;
+  padding: 0.5em 0;
+  /* margin: -0.3em -0.5em 0.5em -0.5em; */
+  /* border-radius: 1em 0 0 1em; */
+  border-bottom: solid 4px #522210;
+}
+
+.page-nav > h3 {
+  flex-basis: 100%;
+  text-align: center;
+  margin: auto;
+  font-size: 1.25em;
 }
 
 .page-nav > p {
@@ -113,11 +126,13 @@ nav {
   object-fit: cover;
 }
 
+
 .page-nav > ol > li {
   padding: 0.5em;
 }
 
 .page-nav > ol > li > img {
+  display: flex;
   max-width: 100%;
   max-height: 400px;
   border-radius: 3em;
