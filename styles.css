@@ -16,12 +16,13 @@ a > img {
 
 a {
   text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
   color: #522210;
 }
 
-a:hover {
-  /* color: rgb(32, 45, 57); */
-  font-weight: bold;
+a > p {
+  margin-top: 0.2em;
 }
 
 a > img:hover {
@@ -36,7 +37,7 @@ h1 {
   padding: 0.5em 0;
   margin: -0.3em -1em 1em -1em;
   /* border-radius: 1em 0 0 1em; */
-  border-bottom: solid 8px #e8842c;
+  border-bottom: solid 8px #72321a;
   /* box-shadow: 0 0 5px 0 #000; */
 }
 
@@ -101,18 +102,19 @@ nav {
   flex-basis: 100%;
   font-size: 1.45em;
   text-align: center;
-  color: #522210;
+  background-color: rgb(239, 233, 233);
+  color: #656565;
   padding: 0.5em 0;
   /* margin: -0.3em -0.5em 0.5em -0.5em; */
-  /* border-radius: 1em 0 0 1em; */
-  border-bottom: solid 4px #522210;
+  /* border-radius: 0.5em 5em 0.5em 5em;  */
+  border-bottom: solid 6px #b6b6b6;
 }
 
 .page-nav > h3 {
   flex-basis: 100%;
-  text-align: center;
   margin: auto;
-  font-size: 1.25em;
+  margin-left: 1.5em;
+  font-size: 1.6em;
 }
 
 .page-nav > p {
@@ -126,7 +128,6 @@ nav {
   object-fit: cover;
 }
 
-
 .page-nav > ol > li {
   padding: 0.5em;
 }
@@ -137,6 +138,15 @@ nav {
   max-height: 400px;
   border-radius: 3em;
   padding-top: 1em;
+}
+
+.page-nav > ul {
+  margin-top: 0;
+  width: 100%;
+}
+
+.page-nav > ul > li {
+  list-style-type: none;
 }
 
 .full-width {
